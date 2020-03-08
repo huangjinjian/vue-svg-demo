@@ -2,18 +2,29 @@
 
 一、在项目的封装组件 如下
 //components/Icon-svg
+
 <template>
+	
   <svg class="svg-icon" aria-hidden="true">
+	
     <use :xlink:href="iconName"></use>
+		
   </svg>
+	
 </template>
 
 <script>
+	
 export default {
+
   name: 'icon-svg',
+	
   props: {
+	
     iconClass: {
+		
       type: String,
+			
       required: true
     }
   },
