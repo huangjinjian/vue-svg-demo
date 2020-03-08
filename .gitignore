@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .DS_Store
 node_modules
 /dist
@@ -21,6 +22,8 @@ yarn-error.log*
 *.sln
 *.sw?
 =======
+=======
+>>>>>>> 7e8afb32dd5fb213293e62dad7f79d54ab762a6a
 # Logs
 logs
 *.log
@@ -125,4 +128,7 @@ dist
 
 # TernJS port file
 .tern-port
+<<<<<<< HEAD
+>>>>>>> 7e8afb32dd5fb213293e62dad7f79d54ab762a6a
+=======
 >>>>>>> 7e8afb32dd5fb213293e62dad7f79d54ab762a6a
