@@ -1,6 +1,9 @@
 const path = require("path");
 
 module.exports = {
+  devServer: {
+    disableHostCheck: true
+  },
   chainWebpack: config => {
     const svgRule = config.module.rule("svg");
     // 清除已有的所有 loader。
